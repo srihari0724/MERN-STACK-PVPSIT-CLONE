@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PVPSIT</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="./img.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#programs">Courses</a></li>
+                <li>Admissions</li>
+                <li>Academics</li>
+                <li><a href="#media">Social Media</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to PVPSIT, a hub of knowledge, innovation, and community!, our college has been a cornerstone of academic excellence and holistic development for students across diverse fields.</p>
+            <h3>Our Mission</h3>
+            <p> To nurture a dynamic learning environment that empowers students to reach their full potential, excel academically, and grow into socially responsible leaders.</p> 
+            <h3>Our Vision</h3>              
+            <p>To be recognized as a center of excellence, fostering innovation, creativity, and lifelong learning, while contributing to the betterment of society.</p>
+        
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="program-cards">
+                <!-- Card 1 B.Tech CSE-->
+                <a href="cse.html" target="_blank" class="card">
+                    <h3>B.Tech CSE</h3>
+                    <p>Department of Computer Science and Engineering</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4GvhChtV8hXpJttH-OmZzBqD3wCU3bhC_tw&s" alt="CSE Logo" width="600">
+                </a>
+    
+                <!-- Card 2 B.Tech IT -->
+                <a href="it.html" target="_blank" class="card">
+                    <h3>B.Tech IT</h3>
+                    <p>Department of Information Technology</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbw0Km5FcwcwoLfTOPvnD0Iy1ln6v9G9ZXRg&s" alt="IT Logo" width="600">
+                </a>
+
+                <!-- Card 3 B.Tech ECE-->
+                <a href="ece.html"target="_blank" class="card">
+                    <h3>B.Tech ECE</h3>
+                    <p>Department of Electronics and Communication Engineering</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTObxEn4gzErdIqxZ2r_vt8wgF6m8IdphR4vw&s" alt="ECE Logo" width="600">
+                </a>
+
+                <!-- Card 4: B.Tech EEE -->
+                <a href="eee.html" target="_blank" class="card">
+                    <h3>B.Tech EEE</h3>
+                    <p>Electrical and Electronics Engineering</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp0YbjoloBwNHtHT2XAkYUzB5_Ffa_-oEcNw&s" alt="EEE Logo" width="600">
+                </a>
+    
+                <!-- Card 4: B.Tech ME -->
+                <a href="me.html" target="_blank"  class="card">
+                    <h3>B.Tech ME</h3>
+                    <p>Mechanical Engineering</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqFPcAm-L_wGEvpkrwilAcxXfMcRTrVK3MHQ&s" alt="ME Logo" width="600">
+                </a>
+    
+                <!-- Card 5: B.Tech CE -->
+                <a href="ce.html" target="_blank" class="card">
+                    <h3>B.Tech CE</h3>
+                    <p>Civil Engineering</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVZaHAOwVMNe-SEaVEKCJOamg8oO8aKcWsgQ&s" alt="CE Logo" width="600">
+                </a>
+    
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need further information, feel free to reach out to us.</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 PVPSIT. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
