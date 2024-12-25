@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
     background-color: #e5e6e0;
-  
     color: #333;
+    line-height: 1.6;
 }
 
 /* Header Section */
@@ -19,15 +19,15 @@ header {
     padding: 15px 0;
 }
 
- header .logo h1 {
+header .logo h1 {
     font-size: 2.5em;
     text-align: center;
 }
 
 header nav ul {
     display: flex;
-    justify-content:center;
-    list-style:circle;
+    justify-content: center;
+    list-style: circle;
     margin-top: 20px;
 }
 
@@ -36,21 +36,18 @@ header nav ul li {
 }
 
 header nav ul li a {
-
     color: rgb(22, 13, 13);
-    text-decoration:dashed;
+    text-decoration: dashed;
     font-size: 1.1em;
 }
 
 header nav ul li a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
-
-
 
 /* Hero Section */
 .hero {
- background-image: url('./img2.png');
+    background-image: url('./img2.png');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -71,15 +68,19 @@ header nav ul li a:hover {
 .about h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
+    line-height: 1.4;
 }
 
 .about p {
     font-size: 1.2em;
-    text-align: justify;
+    text-align: center;
+    line-height: 1.8;
 }
-.about h3{
-    text-align:center;
+
+.about h3 {
+    text-align: center;
 }
+
 /* Programs Section */
 .programs {
     background-color: #eef1e4;
@@ -90,11 +91,12 @@ header nav ul li a:hover {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 20px;
+    line-height: 1.4;
 }
 
 .program-cards {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 80px;
 }
@@ -132,6 +134,7 @@ header nav ul li a:hover {
 .contact h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
+    line-height: 1.4;
 }
 
 .contact form {
